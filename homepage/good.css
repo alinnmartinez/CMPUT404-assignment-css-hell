@@ -27,6 +27,7 @@ body{
 span{
     color: #0F243F;
 }
+/* Code by Tahmid Ahmed (YouTube)*/
 nav{
     display: flex;
     align-items: right;
@@ -40,6 +41,7 @@ nav{
     padding-top: 60pt;
     padding-left: 50pt;
 }
+/* Code by Tahmid Ahmed (YouTube)*/
 nav ul li{
     list-style-type: none;
     display: inline-block;
@@ -51,6 +53,15 @@ nav ul li a{
 nav ul li a:hover{
     color:#A7E7F8;
 }
+/* .social{
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    padding-top: 8pt;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-inline-end: -50%;
+} */
 .introduction{
     align-items: right;
     font-size: 30pt;
@@ -84,7 +95,7 @@ nav ul li a:hover{
     letter-spacing: 1.2pt;
     padding-inline-end: 5%;
 }
-.history{
+/* .history{
     
 }
 .offer{
@@ -92,7 +103,7 @@ nav ul li a:hover{
 }
 .points{
 
-}
+} */
 /* Code by Tahmid Ahmed (YouTube)*/
 footer{
     position: relative;
