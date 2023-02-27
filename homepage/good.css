@@ -1,13 +1,26 @@
+::selection{
+    background: #D9E4EC;
+    color:black;
+}
+h4{
+    margin-bottom: -20pt;
+}
+h5{
+    margin-top: -5pt;
+}
 body{
-    background: #090D0E;
+    background: black;
+    /* background: #090D0E; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    color: white;
 
 }
 .logo{
     color: whitesmoke;
-    font-size: 45pt;
+    font-size: 50pt;
     font-family: 'Trebuchet MS';
     letter-spacing: 1.2pt;
+    margin-left: -4%;
 }
 span{
     color: #0F243F;
@@ -16,19 +29,92 @@ nav{
     display: flex;
     align-items: right;
     justify-content: space-between;
-    font-size: 20pt;
-    padding-top: 45pt;
+    font-size: 22pt;
+    padding-top: 8pt;
     padding-left: 10%;
     padding-right: 10%;
+}
+.links{
+    padding-top: 60pt;
+    padding-left: 50pt;
 }
 nav ul li{
     list-style-type: none;
     display: inline-block;
-    padding: 10pt 25pt;
+    padding: 0pt 25pt;
 }
 nav ul li a{
     color: white;
 }
 nav ul li a:hover{
-    color:#0F243F;
+    color:#A7E7F8;
+}
+.introduction{
+    align-items: right;
+    font-size: 30pt;
+    padding-top: 25pt;
+    padding-left: 10%;
+    padding-right: 10%;
+    letter-spacing: 1.2pt;
+}
+.container{
+    display: flex;
+}
+.portrait{
+    width: 580pt;
+    height: 580pt;
+    margin-inline-start: -5%;
+    margin-top: -5%;
+}
+.about{
+    display: inline-block;
+    font-size: 20pt;
+    padding-inline-end: 5%;
+    margin-top: 2%;
+}
+.content{
+    display: inline-block;
+    align-items: right;
+    font-size: 22pt;
+    padding-top: 25pt;
+    padding-left: 10%;
+    padding-right: 10%;
+    letter-spacing: 1.2pt;
+    padding-inline-end: 5%;
+}
+.history{
+    
+}
+.offer{
+
+}
+.points{
+
+}
+/* Code by Tahmid Ahmed (YouTube)*/
+footer{
+    position: relative;
+    width: 100%;
+    height: 240pt;
+    background: #090D0E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #D9E4EC;
+}
+footer p:nth-child(1){
+    font-size: 25pt;
+    margin-bottom: 0pt;  
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    font-size: 20pt;
+    margin-bottom: 12pt;  
+    font-weight: bold;
+}
+footer p:nth-child(3){
+    font-size: 8pt; 
+    font-weight: bold;
+    color: #0F243F;
 }
