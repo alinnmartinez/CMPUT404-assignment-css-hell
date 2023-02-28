@@ -1,0 +1,1 @@
+Referenced this tutorial by Tahmid Ahmed for certain parts of the code https://www.youtube.com/watch?v=lgeoAUvoRJU in the css and HTML
